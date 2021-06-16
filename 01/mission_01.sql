@@ -265,6 +265,7 @@ where deptno = (select deptno from emp where empno = 7782);
 -- 26. 
 -- 대소문자를 구분하지 않고 직무가 'salesman', 'analyst' 인 직원들의 정보 조회하시오.
 -- 단, 직무별 정렬조회
+-- !!! 이거 upper 사용해야함 수정 필요 
 select * from emp
 where job = 'SALESMAN' or job = 'ANALYST'
 order by job;
