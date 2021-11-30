@@ -1,7 +1,1 @@
-# SQL_Study
- sql study 내용 저장소 
-
-01
-
-02
-
+# 211201 SQL 공부 시작 
